@@ -1,0 +1,31 @@
+{
+  "name": "Warnier-zhang/ExcelWriter",
+  "description": "ExcelWriter - Make it easier to read and write Spreadsheet documents for EasyUI users.",
+  "type": "library",
+  "keywords": [
+    "EasyUI",
+    "Excel"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Warnier-zhang/ExcelWriter",
+  "authors": [
+    {
+      "name": "Warnier-zhang",
+      "email": "warnier.zhang@gmail.com",
+      "homepage": "https://github.com/Warnier-zhang/Warnier-zhang.github.io/issues",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "warnier.zhang@gmail.com",
+    "issues": "https://github.com/Warnier-zhang/ExcelWriter/issues"
+  },
+  "require": {
+    "phpoffice/phpexcel": "~1.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "snippet\\excel\\": "src/"
+    }
+  }
+}
